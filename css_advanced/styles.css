@@ -5,14 +5,13 @@
     font-weight: normal;
     font-style: normal;
 }
-/*adjusted each section's font accordingly*/
 body {
     margin: 0;
     font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 .background-container {
-    background-image: url('Object.png'); /* Remember to comfirm the accuracy of the image path*/
+    background-image: url('Object.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +42,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff; /* Updated color to white */
+    color: #fff; 
     font-size: 16px;
     font-weight: bold;
 }
@@ -52,7 +51,7 @@ header nav ul li a {
     text-align: center;
     padding: 100px 20px;
     position: relative;
-    background: none; /* Remove background from this section */
+    background: none; 
 }
 
 .text-content {
@@ -131,52 +130,52 @@ header nav ul li a {
 
 /* Quotes section styling */
 .quote-section {
-    background-color: #C271FF; /* Purple background */
-    padding: 50px 20px; /* Padding around the content */
-    text-align: center; /* Center align the text */
-    color: white; /* White text color */
+    background-color: #C271FF;
+    padding: 50px 20px; 
+    text-align: center;
+    color: white; 
 }
 
 .quote-section .quote-content {
-    display: flex; /* Flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    max-width: 800px; /* Maximum width of the quote content */
-    margin: 0 auto; /* Centered the content */
+    display: flex; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .quote-section .quote-content img {
-    border-radius: 50%; /* Circular image */
-    width: 100px; /* Image width */
-    height: 100px; /* Image height */
-    margin-right: 80px; /* Space to the right of the image */
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    margin-right: 80px; 
     margin-left: -200px;
 }
 
 
 .quote-section .quote-text {
-    text-align: left; /* Left aligned the text */
+    text-align: left; 
 }
 
 .quote-section blockquote {
-    font-size: 1.2em; /* Font size for the quote. Remember to convert this and all other fonts to pixel or choose a consistent format */
-    font-style: italic; /* Italic style for the quote */
-    margin: 0 0 10px 0; /* Margin around the quote */
+    font-size: 1.2em; 
+    font-style: italic; 
+    margin: 0 0 10px 0; 
 }
 
 .quote-section h3 {
-    font-size: 1.1em; /* Font size for the person's name */
-    margin: 5px 0; /* Margin around the name */
+    font-size: 1.1em;
+    margin: 5px 0; 
     color: white;
 }
 
 .quote-section p {
-    font-size: 1em; /* Font size for the title */
-    margin: 0; /* No margin around the title */
-    font-style: italic; /* Italic style for the title */
-    opacity: 0.8; /* Slightly transparent */
+    font-size: 1em; 
+    margin: 0; 
+    font-style: italic; 
+    opacity: 0.8; 
 }
-/* This is the end of the Quote section styling*/
-/*This is the beggining of the video section styling*/
+
+
 .video-section {
     background-color: #fff;
     padding: 50px 20px;
@@ -208,7 +207,7 @@ header nav ul li a {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     text-align: left;
-    position: relative; /* This is the position relative for overlay */
+    position: relative;
 }
 
 .video-card img {
@@ -250,28 +249,27 @@ header nav ul li a {
     height: 30px;
     margin-right: 10px;
 }
-/*Included a little more modification from here*/
+
 .video-card .author h4 {
     margin: 0;
     font-size: 19px;
     font-weight: bolder;
-    color: #C271FF; /* Updated color to match design */
+    color: #C271FF; 
 }
-
 .video-card .stars {
     display: flex;
     align-items: center;
     margin-top: 10px;
-}
+} 
 
 .video-card .stars div {
-    color: #C271FF; /* Updated color to match design */
+    color: #C271FF; 
     margin-right: 2px;
 }
 
 .video-card .duration {
     font-size: 0.9em;
-    color: #C271FF; /* Updated color to match design */
+    color: #C271FF;
     text-align: right;
     margin-top: 5px;
 }
@@ -287,12 +285,12 @@ header nav ul li a {
     margin-top: 10px;
 }
 
-/* This is the beggining of Membership section styling */
+
 .membership-section {
-    background-color: rgba(7, 22, 41, 1); /* Adjusted according tothe Figma Background color */
-    padding: 50px 80px; /* Ajust the padding around the content until to the content fits */
-    text-align: center; /* Center align the text */
-    color: white; /* White text color */
+    background-color: rgba(7, 22, 41, 1); 
+    padding: 50px 80px; 
+    text-align: center; 
+    color: white; 
 }
 
 .membership-section h2 {
@@ -303,7 +301,7 @@ header nav ul li a {
 }
 
 .membership-section h2 span {
-    color: #C271FF; /* Highlight color */
+    color: #C271FF; 
     font-weight: bold;
 }
 
@@ -319,8 +317,8 @@ header nav ul li a {
 }
 
 .membership-card img {
-    width: 50px; /* Image size */
-    margin-bottom: 20px; /* Space below the image */
+    width: 50px; 
+    margin-bottom: 20px; 
 }
 
 .membership-card h3 {
@@ -334,7 +332,7 @@ header nav ul li a {
 .membership-card p {
     font-size: 19px;
     font-weight: normal;
-    color: #bbb; /* Lighter text color */
+    color: #bbb; 
 }
 
 .membership-section button {
@@ -346,19 +344,17 @@ header nav ul li a {
     border-radius: 22px;
     cursor: pointer;
 }
-/*This is the end of the Membership Section styling*/
 
-/* This is the beggining of the FAQ Section Styling */
 .faq-section {
-    padding: 50px 20px; /* Padding around the content */
-    text-align: center; /* Center align the text */
+    padding: 50px 20px; 
+    text-align: center; 
    }
 
 .faq-section h2 {
     font-size: 80px;
     margin-bottom: 40px;
     color: rgba(7, 22, 41, 1);
-    font-weight: 300; /* The font here is light */
+    font-weight: 300; 
 }
 
 .faq-cards {
@@ -370,32 +366,32 @@ header nav ul li a {
 }
 
 .faq-card {
-    background-color: transparent; /* Background color for FAQ cards */
-    color: #333; /* Text color inside cards */
-    width: 45%; /* Width of each card */
+    background-color: transparent; 
+    color: #333; 
+    width: 45%; 
     margin-bottom: 20px;
 }
 
 .faq-card h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
-    color: rgba(7, 22, 41, 1); /* Text color for card headers */
+    color: rgba(7, 22, 41, 1);
     font-weight: bold;
     text-align: left;
 }
 
 .faq-card p {
     font-size: 0.9em;
-    color: rgba(7, 22, 41, 0.5016); /* Text color for card paragraphs */
-    line-height: 1.6; /* Line height for better readability */
+    color: rgba(7, 22, 41, 0.5016); 
+    line-height: 1.6; 
     text-align: left;
 }
-/* This is the beggining of the Footer Section Styling */
+
 footer {
     background-color: #0C1B2A; 
-    padding: 20px 0; /* Padding around the content */
-    color: white; /* White text color */
-    position: relative; /* Added to position the text absolutely */
+    padding: 20px 0; 
+    color: white; 
+    position: relative; 
 }
 
 footer section {
@@ -404,35 +400,38 @@ footer section {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 10px; /* Reduced padding inside the section */
+    padding: 0 10px;
 }
 
 footer img {
-    height: 40px; /* Adjusted image height */
-    margin-left: -100px; /* Reduced margin from the left */
+    height: 40px; 
+    margin-left: -100px; 
 }
 
 footer .social-icons {
     display: flex;
     align-items: center;
-    gap: 10px; /* Reduced gap between icons */
-    margin-right: -100px; /* Reduced margin from the right */
+    gap: 10px; 
+    margin-right: -100px; 
 }
 
 footer .social-icons i {
     font-size: 1.5em;
-    color: white; /* White color for the icons */
-    cursor: pointer; /* Change cursor to pointer */
+    color: white; 
+    cursor: pointer; 
 }
 
 footer p {
     margin: 0;
     font-size: 16px;
-    color: #888; /* Used light grey color for the text */
-    position: absolute; /* Position the text absolutely */
-    bottom: 10px; /* Position the text at the bottom */
+    color: #888;
+    position: absolute; 
+    bottom: 10px; 
     left: 50%;
-    transform: translateX(-50%); /* Center the text horizontally */
+    transform: translateX(-50%);
 }
 
-/* I am pround of myself for the work done in this project. This is a huge milestone and I hope to learn more as I interact with these stylings.*/
+
+
+
+
